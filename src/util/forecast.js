@@ -1,7 +1,7 @@
 const request = require('request');
 
 const forecast = (latitude,longitude,callback) =>{
-    const access_token//Initialize your access token here
+    const access_token='21c1aebcd4e372307895dfd0ca4c12f8'//Initialize your access token here
     const url = 'http://api.openweathermap.org/data/2.5/weather?lat='+latitude+'&lon='+longitude+'&appid='+access_token
 
     request({url : url, json:true},(err,res)=>{
