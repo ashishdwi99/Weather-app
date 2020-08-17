@@ -39,7 +39,7 @@ app.get('/help',(req,res)=>{
     res.render('help',{
         title : 'HELP',
         name : 'Ashish Dwivedi',
-        helptext : 'Some very very helpful text'
+        helptext : 'For any Kind of help please contact admin'
 
     })
 });
